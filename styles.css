@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    color: aliceblue;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#heading{
+    margin-top: 90px;
+}
+
+#heading #secondH1{
+    margin-left: 230px;
+}
+
+#heading h1{
+    margin-left: 30px;
+    font-family: "General Sans";
+    line-height: 0.9;
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0.65;
+}
+.blocktext{
+    width: fit-content;
+}
+.blocktext h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+}
+
+#chotiheadings{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+#chotiheadings h5{
+    text-transform: uppercase;
+    margin-top: 0.5vw;
+    text-align: right;
+    font-size: 1vw;
+}
+#herofooter{
+    width: 100%;
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+    border-radius: 50%;
+    color: black;
+}
+#second{
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+}
+.element{
+    width: 100%;
+    padding: 3.5vw 3vw;
+    border-top: 1px solid #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.element h1{
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: 0.7;
+}
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.element img{
+    position: absolute;
+    z-index: 999;
+    height: 120%;
+    display: none;
+}
+#about{
+    padding: 10vw 5vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+}
+#about img{
+    width: 200px;
+}
+#textabout{
+    width: 25rem;
+    font-size: 1.1rem;
+}
+#textabout h3{
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+#textabout a{
+    padding: 7px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#subscribe{
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+#footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+#footer-left{
+    display: flex;
+    gap: 30px;
+}
+#footer-right{
+    display: flex;
+    gap: 40px;
+}
+#footer a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
