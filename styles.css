@@ -5,8 +5,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: cursive;
-    font-family: 'General Sans';
->>>>>>> 6e1c4326226903ca1612984a260558adead3bd62
     color: white;
 }
 html, body{
@@ -71,9 +69,7 @@ body::-webkit-scrollbar{
 
 #heading h1{
     margin-left: 30px;
-<<<<<<< HEAD
     font-family: cursive;
-    font-family: 'General Sans';
     line-height: 0.9;
     font-size: 10vw;
     text-transform: uppercase;
