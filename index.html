@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cynthia Ugwu- Clone Website</title>
+    <!-- remix icon for arrows -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- css main -->
     <link rel="stylesheet" href="styles.css">
+    <!-- css locomotive for smooth scrolling -->
+    <link rel="stylesheet" href="locomotive.css">
 </head>
 <body>
+    <div id="mini-circle"></div>
     <div id="main">
         <div id="hero">
             <div id="nav">
@@ -16,15 +21,25 @@
                 <h4>MENU+</h4>
             </div>
             <div id="heading">
-                <h1>Product</h1>
+                <div class="bounding">
+                <h1 class="bounding-element">Product</h1>
+                </div>
                 <div class="blocktext">
-                <h1 id="secondH1">Designer</h1>
-                <h5>Based in Toronto</h5>
+                    <div class="bounding">
+                        <h1 id="secondH1" class="bounding-element">Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="bounding-element-1">Based in Toronto</h5>
+                    </div>
                 </div>
             </div>
             <div id="chotiheadings">
-                <h5>available for freelance</h5>
-                <h5>work from may 23' </h5>
+                <div class="bounding">
+                    <h5 class="bounding-element-1">available for freelance</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="bounding-element-1">work from may 23' </h5>
+                </div>
             </div>
             <div id="herofooter">
                 <a href="#">previously worked at yml <i class="ri-arrow-right-up-line"></i></a>
@@ -68,7 +83,6 @@
         <div id="footer">
             <div id="footer-left">
                 <h4>2024 &copy</h4>
-                <h4>4:10 AM EST</h4>
             </div>
             <div id="footer-right">
                 <a href="#">dribble</a>
@@ -78,5 +92,11 @@
             </div>
         </div>
     </div>
+    <!-- gsap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- locomotive js  -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script> -->
+    <!-- javascript -->
+    <script src="script.js"></script>
 </body>
 </html>
